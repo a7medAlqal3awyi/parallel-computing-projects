@@ -6,7 +6,7 @@ public class MySchro extends Thread {
         display();
     }
 
-    synchronized static void display() {
+    synchronized static void display()  {
         int x = 0;
         System.out.println("program start here \n");
         while (x < 10) {
