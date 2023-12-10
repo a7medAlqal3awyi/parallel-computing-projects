@@ -2,7 +2,7 @@ package runnable_class;
 
 public class MyRunnableThread implements  Runnable {
     @Override
-    public void run() {
+    public void run () {
         int counter = 0;
         while (counter <= 10) {
             System.out.println(counter);
